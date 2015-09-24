@@ -1,25 +1,83 @@
 
-#header {
-    background-color:black;
-    color:white;
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+  font-family: "Rockwell", Rockwell;
+}
+/* TEXT */
+
+p{
+  margin: 0 0 10px 0;
+  font-family: "Rockwell", Rockwell;
+  font-size: 20px;
+}
+
+a{
+  color:black;
+}
+
+/* LAYOUT */
+
+.header {
+    background-color:gray;
+    color:black;
+    font-family:rockwell extra bold;
     text-align:center;
     padding:5px;
 }
-#nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:300px;
-    width:100px;
-    float:left;
-    padding:5px;
+
+.nav {
+    background-color:orange;
 }
-#section {
-    width:350px;
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a{
+    font-weight: bold;
+    color: black;
+    padding: 0 20px;
+    line-height: 40px;
+    font-family: "Rockwell", Rockwell;
+    display: block;
+}
+
+.section {
+    width: 65%;
     float:left;
     padding:10px;
 }
-#footer {
-    background-color:black;
+
+.section span {
+  font-style: italic;
+}
+
+.section img {
+  max-width: 100%;
+}
+
+.sidebar {
+  background-color:gray;
+  width: 30%;
+  padding:20px;
+  font-family: rockwell;
+  float: right;
+}
+
+.sidebar ul{
+  list-style: square inside;
+}
+
+.sidebar li{line-height: 30px;}
+
+.footer {
+    background-color:gray;
     color:white;
     clear:both;
     text-align:center;
