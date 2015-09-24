@@ -22,7 +22,7 @@ Project README.
 
 * _Connect your computer to a network connection_
 * _Open a search engine (Google Chrome preferred)_
-* _Type in the following web address: https://github.com/DianaRMiller/EPICODUS_
+* _Type in the following web address: https://github.com/DianaRMiller/LAYAOUTCODE_
 * _Follow the links to my other web pages_
 * _Enjoy!__
 
